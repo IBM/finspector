@@ -21,7 +21,7 @@ For a development installation (requires [Node.js](https://nodejs.org) and [Yarn
 
 To run the example, you need a dataset stored in `finspector/data/xyz.csv]`. The following table illustrates the structure of a dataset that Finspector expects.
 
-bias_type | sent_index | para_index | stereo_type | more_or_less | sent | bert | roberta | albert
+bias_type | sent_index | para_index | stereo_type | more_or_less | <div style="width:200px">sent</div> | bert | roberta | albert
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 socioeconomic | 485 | 0 | 1 | sent_more | May the Force be with you. | -2.5 | -1.5 | -2.22
 socioeconomic | 485 | 1 | 1 | sent_more | May the Power be with you. | -2.0 | -1.4 | -2.87
