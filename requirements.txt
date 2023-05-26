@@ -1,0 +1,13 @@
+pandas
+torch
+transformers
+numpy
+altair
+tqdm
+sentencepiece
+parrot
+spacy
+scikit-learn
+jupyterlab==3.6.3
+ipywidgets
+jupyter_contrib_nbextensions

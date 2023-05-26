@@ -1,0 +1,55 @@
+{
+  "name": "finspector_js",
+  "version": "0.1.0",
+  "description": "Finspector is designed to help users explore the fairness and bias of foundation models using interactive visualizations.",
+  "author": "Bum Chul Kwon",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM/finspector.git"
+  },
+  "keywords": [
+    "jupyter",
+    "widgets",
+    "ipython",
+    "ipywidgets",
+    "jupyterlab-extension"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "clean": "rimraf dist/ && rimraf ../finspector/labextension/ && rimraf ../finspector/nbextension",
+    "prepublish": "yarn run clean && yarn run build:prod",
+    "build": "webpack --mode=development && yarn run build:labextension:dev",
+    "build:prod": "webpack --mode=production && yarn run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "watch": "webpack --watch --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.6.3",
+    "rimraf": "^2.6.1",
+    "webpack": "^5.83.1"
+  },
+  "dependencies": {
+    "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4 || ^6",
+    "bootstrap": "^5.2.3",
+    "builder": "^5.0.0",
+    "jquery": "^3.6.3",
+    "jquery_multiselect": "^2.3.9"
+  },
+  "jupyterlab": {
+    "extension": "lib/labplugin",
+    "outputDir": "../finspector/labextension",
+    "sharedPackages": {
+      "@jupyter-widgets/base": {
+        "bundled": false,
+        "singleton": true
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "finspector_js/extension": true
+  }
+}

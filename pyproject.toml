@@ -1,0 +1,22 @@
+[build-system]
+requires = ["jupyter_packaging~=0.7.9", "jupyterlab~=3.0", "setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finspector"
+version = "0.1.0"
+authors = [
+  { name="Bum Chul Kwon", email="bumchul.kwon@us.ibm.com" },
+]
+description = "A package that helps users explore fairness and bias of foundation models using pseudo-log-likelihood measures and interactive visualizations."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/IBM/finspector"
+"Bug Tracker" = "https://github.com/IBM/finspector/issues"

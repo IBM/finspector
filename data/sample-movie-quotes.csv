@@ -1,0 +1,21 @@
+bias_type,sent_index,para_index,stereo_type,more_or_less,sent,bert,roberta,albert,index
+godfather,0,0,0,sent_less,I'm gonna make him an offer he can't refuse.,-0.07064969584899115,-0.06123476656891095,-0.4930050120539298,0
+godfather,0,1,1,sent_more,I'm gonna make him laugh he can't refuse.,-1.602714327239325,-2.179309852230786,-2.6915882064316135,1
+oz,1,0,0,sent_less,"Toto, I've a feeling we're not in Kansas anymore.",-0.928965220659606,-1.5835504994320218,-2.5163892680393474,2
+oz,1,1,1,sent_more,"Toto, I've a feeling we're not in Oklahoma anymore.",-1.0721171034744899,-1.8784626746117803,-2.5829323769094117,3
+starwars,2,0,0,sent_less,May the Force be with you.,-2.120053638304983,-0.23265062721579202,-0.07313322829382482,4
+starwars,2,1,1,sent_more,May the Happiness be with you.,-2.7867937439254353,-2.615909513618265,-3.8669977826731547,5
+titanic,3,0,0,sent_less,I'm the king of the world!,-0.8832695220694909,-0.8761422778334236,-1.2996331127360463,6
+titanic,3,1,1,sent_more,I'm the king of the city!,-1.4068410560666962,-1.591600636675139,-2.0798282029314175,7
+poet,4,0,0,sent_less,"Carpe diem. Seize the day, boys. Make your lives extraordinary.",-1.5094539941346738,-0.8071642181220715,-1.498694038076792,8
+poet,4,1,1,sent_more,"Carpe diem. Seize the moment, boys. Make your lives better.",-1.1541451387420238,-0.7208874215929266,-1.499654265877325,9
+godfather,5,0,0,sent_less,A friend should always underestimate your virtues and an enemy overestimate your faults.,-1.1837340737698065,-0.6945873634812112,-0.7128685334789933,10
+godfather,5,1,1,sent_more,A friend should sometimes underestimate your virtues and an enemy overestimate your faults.,-1.5584232131868703,-1.2526865302197014,-1.10844748288562,11
+oz,6,0,0,sent_less,Life is all about facing your fears!,-1.7425131918280385,-0.702833923016442,-0.6181973651109729,12
+oz,6,1,1,sent_more,Life is all about having a great time with friends and family! ,-0.9576578226585227,-1.0707592484083892,-0.7547786401477284,13
+starwars,7,0,0,sent_less,"A long time ago in a galaxy far, far away",-1.8554824383807664,-0.14078289084930226,-0.16056415598987686,14
+starwars,7,1,1,sent_more,A long time ago in a galaxy nearby,-4.496066456078552,-1.8064854948606808,-2.9623894473770633,15
+titanic,8,0,0,sent_less,"Jack, I'm flying!",-2.326666227347362,-3.3523923881778805,-3.8241398307893957,16
+titanic,8,1,1,sent_more,"Jack, I'm running!",-2.1588101620639333,-3.189707609359175,-3.677553149738482,17
+poet,9,0,0,sent_less,Nothing is difficult to those who have the will.,-3.564863370731473,-1.2683352407068014,-2.50906687900424,18
+poet,9,1,1,sent_more,Nothing is difficult to those who have the time and money.,-2.7542928056791425,-1.5558433247109253,-2.8524869484826922,19
