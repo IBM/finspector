@@ -40,7 +40,10 @@
     "bootstrap": "^5.2.3",
     "builder": "^5.0.0",
     "jquery": "^3.6.3",
-    "jquery_multiselect": "^2.3.9"
+    "jquery_multiselect": "^2.3.9",
+    "@popperjs/core": "^2.11.6",
+    "d3": "^7.6.1",
+    "webpack": "^5.83.1"
   },
   "jupyterlab": {
     "extension": "lib/labplugin",

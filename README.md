@@ -4,6 +4,10 @@ Finspector is designed to help users explore the fairness and bias of foundation
 
 ## Installation
 
+Install Finspector using `pip`:
+
+    $ pip install finspector
+
 For a development installation (requires [Node.js](https://nodejs.org) and [Yarn version 1](https://classic.yarnpkg.com/)):
 
     $ git clone https://github.com/IBM/finspector.git
