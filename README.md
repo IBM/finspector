@@ -2,6 +2,8 @@
 
 Finspector is designed to help users explore the fairness and bias of foundation models using interactive visualizations.
 
+[Paper & Demo](https://www.bckwon.com/publication/finspector/)
+
 ## Installation
 
 Install Finspector using `pip`:
