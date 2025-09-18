@@ -8,6 +8,6 @@ sentencepiece
 parrot
 spacy
 scikit-learn
-jupyterlab==3.6.3
+jupyterlab==3.6.8
 ipywidgets
 jupyter_contrib_nbextensions
