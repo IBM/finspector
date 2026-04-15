@@ -39,7 +39,7 @@
     "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4 || ^6",
     "bootstrap": "^5.2.3",
     "builder": "^5.0.0",
-    "jquery": "^3.6.3",
+    "jquery": "^4.0.0",
     "jquery_multiselect": "^2.3.9",
     "@popperjs/core": "^2.11.6",
     "d3": "^7.6.1",
