@@ -671,10 +671,15 @@ balanced-match@^1.0.0:
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-baseline-browser-mapping@^2.11.26:
-  version "2.11.26"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.26.tgz#01bf6774efb3fbb9de20afc6b923ab85c7d230a6"
-  integrity sha512-GLQdD3y6UF8iVuMJl5fHgE4jdn/ua7n+toKfLgNlg3BqQtOZjpy68T8Tup8/wGWZCDlm7KMg7tPb4MPn7oN0TQ==
+balanced-match@^4.0.2:
+  version "4.0.4"
+  resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz"
+  integrity sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==
+
+baseline-browser-mapping@^2.11.23:
+  version "2.11.25"
+  resolved "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.25.tgz"
+  integrity sha512-gMmEShwwq7FJqMwvfRwvCl00v4kN+KOfJqXn+f4nrufak5gNHJOksd/60Dvjuz7sI8Y5WiSFBa8FEYr+zoyqCw==
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -693,6 +698,13 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+brace-expansion@^5.0.8:
+  version "5.0.12"
+  resolved "https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.12.tgz"
+  integrity sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==
+  dependencies:
+    balanced-match "^4.0.2"
 
 browserslist@^4.28.1:
   version "4.29.3"
@@ -1195,17 +1207,19 @@ function-bind@^1.1.2:
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
   integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
 
-glob@^7.1.3:
-  version "7.2.3"
-  resolved "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz"
-  integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
+glob-to-regexp@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz"
+  integrity sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==
+
+glob@^13.0.3:
+  version "13.0.6"
+  resolved "https://registry.npmjs.org/glob/-/glob-13.0.6.tgz"
+  integrity sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==
   dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.1.1"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
+    minimatch "^10.2.2"
+    minipass "^7.1.3"
+    path-scurry "^2.0.2"
 
 glob@~7.1.6:
   version "7.1.7"
@@ -1397,6 +1411,11 @@ lodash@^4.17.15, lodash@^4.17.4, lodash@^4.7.0:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
+lru-cache@^11.0.0:
+  version "11.5.3"
+  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz"
+  integrity sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -1420,7 +1439,14 @@ mini-svg-data-uri@^1.4.4:
   resolved "https://registry.npmjs.org/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz"
   integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
-minimatch@^3.0.4, minimatch@^3.1.1:
+minimatch@^10.2.2:
+  version "10.2.6"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-10.2.6.tgz"
+  integrity sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==
+  dependencies:
+    brace-expansion "^5.0.8"
+
+minimatch@^3.0.4:
   version "3.1.2"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
@@ -1432,15 +1458,10 @@ minimist@~1.2.0:
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
-minimizer-webpack-plugin@^5.7.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/minimizer-webpack-plugin/-/minimizer-webpack-plugin-5.12.0.tgz#acef4a0bd3c5ee405f767a9d90e0173b55b16458"
-  integrity sha512-PCN1x1OzFeFB2GlP91s46q7Gz8Jf16Z7M45bzpoqrYZlh12QeY6tYVM5h299wbwy1DxnQ69VFmmh8Hb2Ff8mbw==
-  dependencies:
-    "@jridgewell/trace-mapping" "^0.3.31"
-    jest-worker "^27.4.5"
-    schema-utils "^4.3.3"
-    terser "^5.51.0"
+minipass@^7.1.2, minipass@^7.1.3:
+  version "7.1.3"
+  resolved "https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz"
+  integrity sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==
 
 moment@^2.24.0:
   version "2.29.4"
@@ -1516,6 +1537,11 @@ p-try@^2.0.0:
   resolved "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+package-json-from-dist@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.1.tgz"
+  integrity sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==
+
 path-browserify@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/path-browserify/-/path-browserify-1.0.1.tgz"
@@ -1540,6 +1566,14 @@ path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
+
+path-scurry@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz"
+  integrity sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==
+  dependencies:
+    lru-cache "^11.0.0"
+    minipass "^7.1.2"
 
 picocolors@^1.1.1:
   version "1.1.1"
@@ -1657,12 +1691,13 @@ resolve@^1.20.0:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-rimraf@^2.6.1:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz"
-  integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
+rimraf@^6.0.0:
+  version "6.1.3"
+  resolved "https://registry.npmjs.org/rimraf/-/rimraf-6.1.3.tgz"
+  integrity sha512-LKg+Cr2ZF61fkcaK1UdkH2yEBBKnYjTyWzTJT6KNPcSPaiT7HSdhtMXQuN5wkTX0Xu72KQ1l8S42rlmexS2hSA==
   dependencies:
-    glob "^7.1.3"
+    glob "^13.0.3"
+    package-json-from-dist "^1.0.1"
 
 robust-predicates@^3.0.2:
   version "3.0.3"
