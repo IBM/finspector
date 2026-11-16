@@ -1793,9 +1793,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 source-map-js@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
-  integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.2.tgz#79fb88d97535a21cb27162cb05d211b67acea4ab"
+  integrity sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==
 
 source-map-loader@~1.0.2:
   version "1.0.2"
@@ -1993,7 +1993,7 @@ webpack-sources@^3.0.0, webpack-sources@^3.4.1, webpack-sources@^3.6.0:
 
 webpack@^5.76.1, webpack@^5.83.1:
   version "5.112.2"
-  resolved "https://registry.npmjs.org/webpack/-/webpack-5.112.2.tgz"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.112.2.tgz#6548b28310dc57d971aadb31a582c8aadb9ec880"
   integrity sha512-B2tp1LI9D8GVpPDqprdt12ukTkXXahj9MzqSWJq4faSPgOUM7CdZaGAB6HrL/8E6UwbBpdj4vzWDbKoFnVoU6g==
   dependencies:
     "@types/estree" "^1.0.8"
@@ -2012,7 +2012,11 @@ webpack@^5.76.1, webpack@^5.83.1:
     schema-utils "^4.8.1"
     tapable "^2.3.0"
     watchpack "^2.6.3"
-    webpack-sources "^3.6.0"
+    
+    
+    
+    
+    s "^3.6.0"
 
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
